@@ -1,2 +1,3 @@
 venv/
 MODELOS/.vscode/
+.env
