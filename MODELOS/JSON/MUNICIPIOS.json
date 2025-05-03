@@ -1,184 +1,184 @@
 {
-  "tulum": [
-    "ruina", "maya", "playa", "cenote", "sian", "kaan", "ecoalojamiento",
-    "yoga", "mezcal", "cocina", "bohemio", "reserva", "arqueológico"
-  ],
-  "isla_mujeres": [
-    "playa", "snorkel", "diosa", "ixchel", "punta", "sur", "hacienda", "mundaca",
-    "caribe", "barco", "delfín", "coral", "mar"
-  ],
-  "san_cristobal": [
-    "colonial", "chiapas", "arcotete", "chamula", "zapatista", "artesanía",
-    "mercado", "catedral", "museo", "montaña", "pueblo", "indígena"
-  ],
-  "valladolid": [
-    "cenote", "zaci", "convento", "frailes", "calle", "colonial", "iglesia",
-    "gastronomía", "yucatán", "historia", "museo", "artesanía"
-  ],
-  "bacalar": [
-    "laguna", "siete", "colores", "fuerte", "pirata", "cenote", "kayak",
-    "vela", "pueblo", "mágico", "quintana", "roo"
-  ],
-  "palenque": [
-    "ruina", "maya", "arqueológico", "selva", "chiapas", "templo", "inscripción",
-    "cascada", "misol", "ha", "agua", "historia"
-  ],
-  "sayulita": [
+  "nayarit-sayulita": [
     "surf", "playa", "nayarit", "bohemio", "arte", "galería", "mercado",
     "café", "taco", "fiesta", "música", "colorido"
   ],
-  "valle_bravo": [
-    "lago", "avándaro", "parapente", "bosque", "monarca", "cascada", "velo",
-    "novia", "pueblo", "mágico", "artesanía", "mercado"
+  "quintanaroo-tulum": [
+    "ruina", "maya", "playa", "cenote", "sian", "kaan", "ecoalojamiento",
+    "yoga", "mezcal", "cocina", "bohemio", "reserva", "arqueológico"
   ],
-  "teotihuacan": [
-    "pirámide", "sol", "luna", "calzada", "muerto", "arqueológico", "maguey",
-    "obsidiana", "templo", "barroco", "cactácea", "jardín"
+  "quintanaroo-isla_mujeres": [
+    "playa", "snorkel", "diosa", "ixchel", "punta", "sur", "hacienda", "mundaca",
+    "caribe", "barco", "delfín", "coral", "mar"
   ],
-  "loreto": [
-    "misión", "jesuita", "mar", "cortez", "isla", "carmen", "bahía", "parque",
-    "nacional", "baja", "california", "sur"
-  ],
-  "huasca_de_ocampo": [
-    "prisma", "basáltico", "hacienda", "santa", "maría", "regla", "duende", "museo",
-    "trucha", "bosque", "peña", "aire", "presa", "san", "antonio", "regla",
-    "tirolesa", "senderismo", "cabalgata", "artesanía", "alfarería", "leyenda"
-  ],
-  "tepoztlan": [
-    "tepozteco", "pirámide", "cerro", "mercado", "artesanía", "temazcal", "spa",
-    "misticismo", "tradición", "pueblo", "mágico", "senderismo", "cultura", "historia"
-  ],
-  "tequila": [
-    "agave", "destilería", "tequila", "cata", "jalisco", "barrica", "fermentación",
-    "jimador", "licor", "bebida", "pueblo", "mágico", "ruta", "turismo", "historia"
-  ],
-  "atlixco": [
-    "flor", "invernadero", "villa", "iluminada", "navidad", "festival", "atlixcayotl",
-    "jardín", "pueblo", "mágico", "cultura", "tradición", "mercado", "artesanía"
-  ],
-  "creel": [
-    "sierra", "tarahumara", "rarámuri", "barranca", "cobre", "tren", "chepe",
-    "paisaje", "montaña", "cultura", "tradición", "pueblo", "mágico", "aventura"
-  ],
-  "mazunte": [
-    "playa", "tortuga", "centro", "conservación", "ecoturismo", "naturaleza",
-    "surf", "oleaje", "pacifico", "pueblo", "mágico", "relajación", "biodiversidad"
-  ],
-  "xilitla": [
-    "jardín", "surrealista", "edward", "james", "huasteca", "potosina", "cascada",
-    "sótano", "golondrina", "naturaleza", "arte", "escultura", "pueblo", "mágico"
-  ],
-  "real_de_catorce": [
-    "mina", "túnel", "ogarrio", "peregrinación", "wirikuta", "huichol", "desierto",
-    "jeep", "pueblo", "mágico", "historia", "cultura", "tradición", "aventura"
-  ],
-  "tapalpa": [
-    "bosque", "piedra", "bola", "cascada", "salto", "negro", "parapente",
-    "senderismo", "pueblo", "mágico", "cabaña", "naturaleza", "aventura", "tranquilidad"
-  ],
-  "ajijic": [
-    "lago", "chapala", "malecón", "galería", "arte", "pintura", "artesanía",
-    "mural", "cultura", "expatriado", "comunidad", "bohemio", "cafetería",
-    "restaurante", "mercado", "tradición", "música", "festival", "paseo"
-  ],
-  "tequisquiapan": [
-    "vino", "queso", "viñedo", "ruta", "parroquia", "plaza", "mercado",
-    "artesanía", "mimbre", "vara", "canasta", "sombrero", "mirador",
-    "centro", "histórico", "festival", "cultura", "tradición", "pueblo"
-  ],
-  "metepec": [
-    "barro", "cerámica", "árbol", "vida", "artesanía", "mercado", "plaza",
-    "iglesia", "callejón", "tradición", "cultura", "festival", "música",
-    "danza", "gastronomía", "dulce", "pan", "muerto", "pueblo"
-  ],
-  "cholula": [
-    "pirámide", "iglesia", "santuario", "volcán", "popocatépetl", "tlachihualtepetl",
-    "arqueología", "mercado", "artesanía", "talavera", "cultura", "tradición",
-    "gastronomía", "mole", "festival", "danza", "música", "pueblo"
-  ],
-  "orizaba": [
-    "teleférico", "pico", "montaña", "río", "puente", "iglesia", "palacio",
-    "ferrocarril", "museo", "arte", "cultura", "tradición", "gastronomía",
-    "café", "mercado", "artesanía", "pueblo", "historia", "naturaleza"
-  ],
-  "izamal": [
-    "convento", "franciscano", "pirámide", "maya", "amarillo", "ciudad",
-    "cultura", "historia", "tradición", "gastronomía", "panucho", "sopa",
-    "limón", "mercado", "artesanía", "callejón", "iglesia", "pueblo"
-  ],
-  "ixtapan_de_la_sal": [
-    "agua", "termal", "spa", "relajación", "balneario", "masaje", "salud",
-    "bienestar", "parque", "acuático", "cascada", "naturaleza", "gastronomía",
-    "mercado", "artesanía", "pueblo", "historia", "tradición", "cultura"
-  ],
-  "zacatlan": [
-    "manzana", "sidra", "reloj", "floral", "barranca", "mirador", "nube",
-    "paisaje", "naturaleza", "gastronomía", "pan", "queso", "mercado",
-    "artesanía", "pueblo", "historia", "tradición", "cultura", "festival"
-  ],
-  "bernal": [
-    "peña", "monolito", "escalada", "aventura", "viñedo", "vino", "queso",
-    "artesanía", "lana", "rebozo", "dulce", "leche", "nieve", "guamichi",
-    "pueblo", "historia", "tradición", "cultura", "festival"
-  ],
-  "tepotzotlan": [
-    "museo", "virreinato", "iglesia", "barroco", "acueducto", "arco", "historia",
-    "cultura", "tradición", "artesanía", "mercado", "gastronomía", "pueblo",
-    "plaza", "callejón", "festival", "danza", "música", "naturaleza"
-  ],
-  "cuetzalan": [
-    "volador", "danza", "ritual", "cueva", "gruta", "cascada", "café",
-    "yolixpa", "artesanía", "bordado", "huipil", "mercado", "pueblo",
-    "historia", "tradición", "cultura", "naturaleza", "festival", "música"
-  ],
-  "chiapa_de_corzo": [
-    "cañón", "sumidero", "parachico", "fiesta", "tradición", "cultura",
-    "iglesia", "fuente", "colonial", "artesanía", "laca", "gastronomía",
-    "pepita", "mercado", "pueblo", "historia", "danza", "música", "naturaleza"
-  ],
-  "dolores_hidalgo": [
-    "independencia", "miguel", "hidalgo", "parroquia", "museo", "historia",
-    "cultura", "tradición", "cerámica", "talavera", "helado", "nopal",
-    "tequila", "mercado", "artesanía", "pueblo", "música", "festival", "danza"
-  ],
-  "parras": [
-    "vino", "viñedo", "bodega", "casa", "madero", "hacienda", "historia",
-    "cultura", "tradición", "gastronomía", "queso", "pan", "mercado",
-    "artesanía", "pueblo", "naturaleza", "festival", "música", "danza"
-  ],
-  "coatepec": [
-    "café", "finca", "cafetales", "aroma", "taza", "historia", "cultura",
-    "tradición", "gastronomía", "pan", "dulce", "mercado", "artesanía",
-    "pueblo", "naturaleza", "festival", "música", "danza", "plaza"
-  ],
-  "cuatro_cienegas": [
-    "poza", "agua", "cristalina", "duna", "yeso", "ecosistema", "único",
-    "naturaleza", "historia", "cultura", "tradición", "gastronomía",
-    "mercado", "artesanía", "pueblo", "reserva", "biodiversidad", "aventura", "exploración"
-  ],
-  "todos_santos": [
-    "baja", "california", "sur", "playa", "surf", "galería", "arte", "expatriado",
-    "hotel", "boutique", "orgánico", "café", "restaurante", "festival", "música",
-    "pueblo", "mágico", "misión", "historia", "cultura", "artesanía", "desierto", "oasis"
-  ],
-  "patzcuaro": [
+  "michoacan-patzcuaro": [
     "lago", "janitzio", "purépecha", "noche", "muerto", "isla", "mariposa", "monarca",
     "artesanía", "cobre", "madera", "colonial", "plaza", "basílica", "mercado",
     "gastronomía", "historia", "tradición", "cultura", "pueblo", "mágico"
   ],
-  "taxco": [
+  "chiapas-palenque": [
+    "ruina", "maya", "arqueológico", "selva", "chiapas", "templo", "inscripción",
+    "cascada", "misol", "ha", "agua", "historia"
+  ],
+  "estado_de_mexico-valle_bravo": [
+    "lago", "avándaro", "parapente", "bosque", "monarca", "cascada", "velo",
+    "novia", "pueblo", "mágico", "artesanía", "mercado"
+  ],
+  "estado_de_mexico-ixtapan_de_la_sal": [
+    "agua", "termal", "spa", "relajación", "balneario", "masaje", "salud",
+    "bienestar", "parque", "acuático", "cascada", "naturaleza", "gastronomía",
+    "mercado", "artesanía", "pueblo", "historia", "tradición", "cultura"
+  ],
+  "chihuahua-creel": [
+    "sierra", "tarahumara", "rarámuri", "barranca", "cobre", "tren", "chepe",
+    "paisaje", "montaña", "cultura", "tradición", "pueblo", "mágico", "aventura"
+  ],
+  "guerrero-taxco": [
     "plata", "joyería", "platería", "filigrana", "colonial", "callejón", "iglesia",
     "santa", "prisca", "teleférico", "mirador", "cristo", "zócalo", "mercado",
     "artesanía", "gastronomía", "pozole", "historia", "pueblo", "mágico"
   ],
-  "tlaquepaque": [
+  "yucatan-valladolid": [
+    "cenote", "zaci", "convento", "frailes", "calle", "colonial", "iglesia",
+    "gastronomía", "yucatán", "historia", "museo", "artesanía"
+  ],
+  "yucatan-izamal": [
+    "convento", "franciscano", "pirámide", "maya", "amarillo", "ciudad",
+    "cultura", "historia", "tradición", "gastronomía", "panucho", "sopa",
+    "limón", "mercado", "artesanía", "callejón", "iglesia", "pueblo"
+  ],
+  "chiapas-san_cristobal_de_las_casas": [
+    "colonial", "chiapas", "arcotete", "chamula", "zapatista", "artesanía",
+    "mercado", "catedral", "museo", "montaña", "pueblo", "indígena"
+  ],
+  "puebla-atlixco": [
+    "flor", "invernadero", "villa", "iluminada", "navidad", "festival", "atlixcayotl",
+    "jardín", "pueblo", "mágico", "cultura", "tradición", "mercado", "artesanía"
+  ],
+  "queretaro-tequisquiapan": [
+    "vino", "queso", "viñedo", "ruta", "parroquia", "plaza", "mercado",
+    "artesanía", "mimbre", "vara", "canasta", "sombrero", "mirador",
+    "centro", "histórico", "festival", "cultura", "tradición", "pueblo"
+  ],
+  "jalisco-ajijic": [
+    "lago", "chapala", "malecón", "galería", "arte", "pintura", "artesanía",
+    "mural", "cultura", "expatriado", "comunidad", "bohemio", "cafetería",
+    "restaurante", "mercado", "tradición", "música", "festival", "paseo"
+  ],
+  "estado_de_mexico-teotihuacan": [
+    "pirámide", "sol", "luna", "calzada", "muerto", "arqueológico", "maguey",
+    "obsidiana", "templo", "barroco", "cactácea", "jardín"
+  ],
+  "jalisco-tequila": [
+    "agave", "destilería", "tequila", "cata", "jalisco", "barrica", "fermentación",
+    "jimador", "licor", "bebida", "pueblo", "mágico", "ruta", "turismo", "historia"
+  ],
+  "quintanaroo-bacalar": [
+    "laguna", "siete", "colores", "fuerte", "pirata", "cenote", "kayak",
+    "vela", "pueblo", "mágico", "quintana", "roo"
+  ],
+  "baja_californiasur-todos_santos": [
+    "baja", "california", "sur", "playa", "surf", "galería", "arte", "expatriado",
+    "hotel", "boutique", "orgánico", "café", "restaurante", "festival", "música",
+    "pueblo", "mágico", "misión", "historia", "cultura", "artesanía", "desierto", "oasis"
+  ],
+  "coahuila-parras": [
+    "vino", "viñedo", "bodega", "casa", "madero", "hacienda", "historia",
+    "cultura", "tradición", "gastronomía", "queso", "pan", "mercado",
+    "artesanía", "pueblo", "naturaleza", "festival", "música", "danza"
+  ],
+  "veracruz-coatepec": [
+    "café", "finca", "cafetales", "aroma", "taza", "historia", "cultura",
+    "tradición", "gastronomía", "pan", "dulce", "mercado", "artesanía",
+    "pueblo", "naturaleza", "festival", "música", "danza", "plaza"
+  ],
+  "hidalgo-huasca_de_ocampo": [
+    "prisma", "basáltico", "hacienda", "santa", "maría", "regla", "duende", "museo",
+    "trucha", "bosque", "peña", "aire", "presa", "san", "antonio", "regla",
+    "tirolesa", "senderismo", "cabalgata", "artesanía", "alfarería", "leyenda"
+  ],
+  "morelos-tepoztlan": [
+    "tepozteco", "pirámide", "cerro", "mercado", "artesanía", "temazcal", "spa",
+    "misticismo", "tradición", "pueblo", "mágico", "senderismo", "cultura", "historia"
+  ],
+  "puebla-cholula": [
+    "pirámide", "iglesia", "santuario", "volcán", "popocatépetl", "tlachihualtepetl",
+    "arqueología", "mercado", "artesanía", "talavera", "cultura", "tradición",
+    "gastronomía", "mole", "festival", "danza", "música", "pueblo"
+  ],
+  "coahuila-cuatro_cienegas": [
+    "poza", "agua", "cristalina", "duna", "yeso", "ecosistema", "único",
+    "naturaleza", "historia", "cultura", "tradición", "gastronomía",
+    "mercado", "artesanía", "pueblo", "reserva", "biodiversidad", "aventura", "exploración"
+  ],
+  "estado_de_mexico-metepec": [
+    "barro", "cerámica", "árbol", "vida", "artesanía", "mercado", "plaza",
+    "iglesia", "callejón", "tradición", "cultura", "festival", "música",
+    "danza", "gastronomía", "dulce", "pan", "muerto", "pueblo"
+  ],
+  "baja_californiasur-loreto": [
+    "misión", "jesuita", "mar", "cortez", "isla", "carmen", "bahía", "parque",
+    "nacional", "baja", "california", "sur"
+  ],
+  "veracruz-orizaba": [
+    "teleférico", "pico", "montaña", "río", "puente", "iglesia", "palacio",
+    "ferrocarril", "museo", "arte", "cultura", "tradición", "gastronomía",
+    "café", "mercado", "artesanía", "pueblo", "historia", "naturaleza"
+  ],
+  "jalisco-tlaquepaque": [
     "guadalajara", "jalisco", "alfarería", "cerámica", "vidrio", "soplado", "mariachi",
     "jardin", "hidalgo", "parian", "gastronómico", "calle", "independencia", "galería",
     "artesanía", "música", "folklore", "cultura", "tradición", "tequila"
   ],
-  "malinalco": [
+  "puebla-cuetzalan": [
+    "volador", "danza", "ritual", "cueva", "gruta", "cascada", "café",
+    "yolixpa", "artesanía", "bordado", "huipil", "mercado", "pueblo",
+    "historia", "tradición", "cultura", "naturaleza", "festival", "música"
+  ],
+  "queretaro-bernal": [
+    "peña", "monolito", "escalada", "aventura", "viñedo", "vino", "queso",
+    "artesanía", "lana", "rebozo", "dulce", "leche", "nieve", "guamichi",
+    "pueblo", "historia", "tradición", "cultura", "festival"
+  ],
+  "san_luis_potosi-xilitla": [
+    "jardín", "surrealista", "edward", "james", "huasteca", "potosina", "cascada",
+    "sótano", "golondrina", "naturaleza", "arte", "escultura", "pueblo", "mágico"
+  ],
+  "estado_de_mexico-malinalco": [
     "arqueológico", "cuauhtinchan", "águila", "guerrero", "jaguar", "convento",
     "agustino", "museo", "viviente", "naturaleza", "cascada", "senderismo", "termal",
     "gastronomía", "tradicional", "mercado", "artesanía", "pueblo", "mágico"
+  ],
+  "san_luis_potosi-real_de_catorce": [
+    "mina", "túnel", "ogarrio", "peregrinación", "wirikuta", "huichol", "desierto",
+    "jeep", "pueblo", "mágico", "historia", "cultura", "tradición", "aventura"
+  ],
+  "chiapas-chiapa_de_corzo": [
+    "cañón", "sumidero", "parachico", "fiesta", "tradición", "cultura",
+    "iglesia", "fuente", "colonial", "artesanía", "laca", "gastronomía",
+    "pepita", "mercado", "pueblo", "historia", "danza", "música", "naturaleza"
+  ],
+  "oaxaca-mazunte": [
+    "playa", "tortuga", "centro", "conservación", "ecoturismo", "naturaleza",
+    "surf", "oleaje", "pacifico", "pueblo", "mágico", "relajación", "biodiversidad"
+  ],
+  "estado_de_mexico-tepotzotlan": [
+    "museo", "virreinato", "iglesia", "barroco", "acueducto", "arco", "historia",
+    "cultura", "tradición", "artesanía", "mercado", "gastronomía", "pueblo",
+    "plaza", "callejón", "festival", "danza", "música", "naturaleza"
+  ],
+  "puebla-zacatlan": [
+    "manzana", "sidra", "reloj", "floral", "barranca", "mirador", "nube",
+    "paisaje", "naturaleza", "gastronomía", "pan", "queso", "mercado",
+    "artesanía", "pueblo", "historia", "tradición", "cultura", "festival"
+  ],
+  "guanajuato-dolores_hidalgo": [
+    "independencia", "miguel", "hidalgo", "parroquia", "museo", "historia",
+    "cultura", "tradición", "cerámica", "talavera", "helado", "nopal",
+    "tequila", "mercado", "artesanía", "pueblo", "música", "festival", "danza"
+  ],
+  "jalisco-tapalpa": [
+    "bosque", "piedra", "bola", "cascada", "salto", "negro", "parapente",
+    "senderismo", "pueblo", "mágico", "cabaña", "naturaleza", "aventura", "tranquilidad"
   ]
 }

@@ -114,27 +114,20 @@ def entrenar_modelos_fasttext():
         'dim': 100,
         'minCount': 2
     }
-    # print("Entrenando modelo de ciudad-municipio...")
-    # modelo_ciuMun = fasttext.train_supervised(input=os.path.join(dataset_dir, 'region_ciudad.txt'), **params)
-    # modelo_ciuMun.save_model(os.path.join(output_dir, 'modelo_EstMun.bin'))
+    print("Entrenando modelo de ciudad-municipio...")
+    modelo_ciuMun = fasttext.train_supervised(input=os.path.join(dataset_dir, 'region_ciudad_aumentado.txt'), **params)
+    modelo_ciuMun.save_model(os.path.join(output_dir, 'modelo_EstMun.bin'))
     
     print("Entrenando modelo de polaridad...")
-    modelo_polaridad = fasttext.train_supervised(input=os.path.join(dataset_dir, 'polaridad.txt'), **params)
+    modelo_polaridad = fasttext.train_supervised(input=os.path.join(dataset_dir, 'polaridad_aumentado.txt'), **params)
     modelo_polaridad.save_model(os.path.join(output_dir, 'modelo_polaridad.bin'))
 
-    # print("Entrenando modelo de tipo...")
-    # modelo_tipo = fasttext.train_supervised(input=os.path.join(dataset_dir, 'tipo.txt'), **params)
-    # modelo_tipo.save_model(os.path.join(output_dir, 'modelo_tipo1.bin'))
-
-    # print("Entrenando modelo de región...")
-    # modelo_region = fasttext.train_supervised(input=os.path.join(dataset_dir, 'region.txt'), **params)
-    # modelo_region.save_model(os.path.join(output_dir, 'modelo_region.bin'))
-
-    # print("Entrenando modelo de ciudad...")
-    # modelo_ciudad = fasttext.train_supervised(input=os.path.join(dataset_dir, 'ciudad.txt'), **params)
-    # modelo_ciudad.save_model(os.path.join(output_dir, 'modelo_ciudad.bin'))
+    print("Entrenando modelo de tipo...")
+    modelo_tipo = fasttext.train_supervised(input=os.path.join(dataset_dir, 'tipo_aumentado.txt'), **params)
+    modelo_tipo.save_model(os.path.join(output_dir, 'modelo_tipo1.bin'))
 
     print("Todos los modelos entrenados y guardados correctamente!")
+    
 
 if __name__ == "__main__":
     # generar_datasets_fasttext()

@@ -23,8 +23,7 @@ output_path = os.path.join(output_dir, 'resultados_modelo1.xlsx')
 
 # Cargar modelos
 model = fasttext.load_model(os.path.join(model_dir, 'modelo_EstMun.bin'))
-# model1 = fasttext.load_model(os.path.join(model_dir, 'modelo_region.bin'))
-model2 = fasttext.load_model(os.path.join(model_dir, 'modelo_tipo.bin'))
+model2 = fasttext.load_model(os.path.join(model_dir, 'modelo_tipo1.bin'))
 model3 = fasttext.load_model(os.path.join(model_dir, 'modelo_polaridad.bin'))
 
 # Leer Excel

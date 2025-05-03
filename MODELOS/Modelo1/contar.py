@@ -1,7 +1,7 @@
 from collections import Counter
 import os
 base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../datasets_fasttext'))
-ruta_archivo = os.path.join(base_dir, 'tipo_aumentado.txt')
+ruta_archivo = os.path.join(base_dir, 'region_ciudad_aumentado.txt')
 # ruta_archivo = os.path.join(base_dir, 'tipo.txt')
 
 conteo_etiquetas = Counter()

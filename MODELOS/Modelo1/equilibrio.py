@@ -9,9 +9,9 @@ from difflib import SequenceMatcher
 
 # Rutas
 base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../datasets_fasttext'))
-ruta_archivo = os.path.join(base_dir, 'polaridad.txt')
+ruta_archivo = os.path.join(base_dir, 'region_ciudad.txt')
 ruta_JSON = os.path.abspath(os.path.join(os.path.dirname(__file__), '../JSON'))
-ruta_JsonTipo = os.path.join(ruta_JSON, 'POLARIDAD.json')
+ruta_JsonTipo = os.path.join(ruta_JSON, 'MUNICIPIOS.json')
 
 # Cargar JSON de categorías
 with open(ruta_JsonTipo, 'r', encoding='utf-8') as json_file:
@@ -168,7 +168,7 @@ for etiqueta, frases in agrupadas_final.items():
         lineas_finales.append(f"{etiqueta} {frase}")
 
 # Guardar resultado final
-ruta_salida = os.path.join(base_dir, 'tipo_aumentado.txt')
+ruta_salida = os.path.join(base_dir, 'region_ciudad_aumentado.txt')
 with open(ruta_salida, 'w', encoding='utf-8') as salida:
     for linea in lineas_finales:
         salida.write(linea + '\n')
