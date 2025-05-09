@@ -56,13 +56,21 @@ class Preprocesador:
 
 def generar_datasets_fasttext():
     # Cargar datos desde Excel
-    ruta_excel = r'C:\Users\IGNITER\OneDrive\Documentos\GitHub\models_RestMex\MODELOS\Modelo1\datos.csv'
+    ruta_excel = r'C:\Users\IGNITER\Documents\GITHUB\models_RestMex\MODELOS\Modelo1\datos.csv'
     df = pd.read_csv(
         ruta_excel,
         names=["Review", "Polarity", "Town", "Region", "Type"],
         skiprows=1
     )
+    total = len(df)
+    con_review = df['Review'].notna().sum()
+    con_etiquetas = df[['Review', 'Polarity', 'Type', 'Region', 'Town']].dropna().shape[0]
+
+    print(f"Total filas en CSV: {total}")
     
+    print(f"Filas con Review: {con_review}")
+    print(f"Filas con Review + etiquetas completas: {con_etiquetas}")
+
     print(f"Datos cargados: {len(df)} filas")
     print(df.columns)
     
@@ -70,9 +78,7 @@ def generar_datasets_fasttext():
     os.makedirs('datasets_fasttext', exist_ok=True)
     
     # Procesar cada texto y generar archivos para cada modelo
-    with open('datasets_fasttext/polaridad.txt', 'w', encoding='utf-8') as f_pol:
-        #  open('datasets_fasttext/tipo.txt', 'w', encoding='utf-8') as f_tipo, \
-        #  open('datasets_fasttext/region_ciudad.txt', 'w', encoding='utf-8') as f_region_ciudad:
+    with open('datasets_fasttext/polaridad1.txt', 'w', encoding='utf-8') as f_pol, open('datasets_fasttext/tipo1.txt', 'w', encoding='utf-8') as f_tipo, open('datasets_fasttext/region_ciudad1.txt', 'w', encoding='utf-8') as f_region_ciudad:
         
         for _, row in df.iterrows():
             if pd.notna(row['Review']):
@@ -85,16 +91,16 @@ def generar_datasets_fasttext():
                         f_pol.write(f"__label__{int(row['Polarity'])} {texto_procesado}\n")
                     
                     # Archivo para tipo de establecimiento
-                    # if pd.notna(row['Type']):
-                    #     tipo = row['Type'].lower().replace(' ', '_')
-                    #     f_tipo.write(f"__label__{tipo} {texto_procesado}\n")
+                    if pd.notna(row['Type']):
+                        tipo = row['Type'].lower().replace(' ', '_')
+                        f_tipo.write(f"__label__{tipo} {texto_procesado}\n")
                     
-                    # # Archivo combinado para región y ciudad
-                    # if pd.notna(row['Region']) and pd.notna(row['Town']):
-                    #     region = row['Region'].lower().replace(' ', '_')
-                    #     ciudad = row['Town'].lower().replace(' ', '_')
-                    #     etiqueta_region_ciudad = f"{region}-{ciudad}"
-                    #     f_region_ciudad.write(f"__label__{etiqueta_region_ciudad} {texto_procesado}\n")
+                    # Archivo combinado para región y ciudad
+                    if pd.notna(row['Region']) and pd.notna(row['Town']):
+                        region = row['Region'].lower().replace(' ', '_')
+                        ciudad = row['Town'].lower().replace(' ', '_')
+                        etiqueta_region_ciudad = f"{region}-{ciudad}"
+                        f_region_ciudad.write(f"__label__{etiqueta_region_ciudad} {texto_procesado}\n")
     
     print("✅ Archivos de entrenamiento generados en la carpeta 'datasets_fasttext':")
     print("  - polaridad.txt - Para el modelo de polaridad (positivo/negativo)")

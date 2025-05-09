@@ -8,10 +8,10 @@ from tqdm import tqdm
 from difflib import SequenceMatcher
 
 # Rutas
-base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../datasets_fasttext'))
-ruta_archivo = os.path.join(base_dir, 'region_ciudad.txt')
+base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../datasets_fasttext/divididos'))
+ruta_archivo = os.path.join(base_dir, 'tipo1_train.txt')
 ruta_JSON = os.path.abspath(os.path.join(os.path.dirname(__file__), '../JSON'))
-ruta_JsonTipo = os.path.join(ruta_JSON, 'MUNICIPIOS.json')
+ruta_JsonTipo = os.path.join(ruta_JSON, 'TIPOS.json')
 
 # Cargar JSON de categorías
 with open(ruta_JsonTipo, 'r', encoding='utf-8') as json_file:
