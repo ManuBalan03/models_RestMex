@@ -44,7 +44,7 @@ tipo = os.path.abspath(os.path.join(script_dir, '../../datasets_fasttext/dividid
 X_test_polaridad, y_test_polaridad = cargar_datos_txt(polaridad)
 X_test_categoria, y_test_categoria = cargar_datos_txt(tipo)
 
-categorias = ["restaurant", "hotel", "attraction"]
+categorias = ["restaurant", "hotel", "attractive"]
 
 def evaluar_y_guardar(nombre_modelo, y_true, y_pred):
     report = classification_report(y_true, y_pred, digits=4, output_dict=True)
